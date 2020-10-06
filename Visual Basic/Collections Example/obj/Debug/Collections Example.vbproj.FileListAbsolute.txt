@@ -1,0 +1,12 @@
+C:\Users\xingp\source\repos\Visual Basic\Collections Example\bin\Debug\Collections Example.exe.config
+C:\Users\xingp\source\repos\Visual Basic\Collections Example\bin\Debug\Collections Example.exe
+C:\Users\xingp\source\repos\Visual Basic\Collections Example\bin\Debug\Collections Example.pdb
+C:\Users\xingp\source\repos\Visual Basic\Collections Example\bin\Debug\Collections Example.xml
+C:\Users\xingp\source\repos\Visual Basic\Collections Example\obj\Debug\Collections Example.vbprojAssemblyReference.cache
+C:\Users\xingp\source\repos\Visual Basic\Collections Example\obj\Debug\Collections_Example.CollectionsExampleForm.resources
+C:\Users\xingp\source\repos\Visual Basic\Collections Example\obj\Debug\Collections_Example.Resources.resources
+C:\Users\xingp\source\repos\Visual Basic\Collections Example\obj\Debug\Collections Example.vbproj.GenerateResource.cache
+C:\Users\xingp\source\repos\Visual Basic\Collections Example\obj\Debug\Collections Example.vbproj.CoreCompileInputs.cache
+C:\Users\xingp\source\repos\Visual Basic\Collections Example\obj\Debug\Collections Example.exe
+C:\Users\xingp\source\repos\Visual Basic\Collections Example\obj\Debug\Collections Example.xml
+C:\Users\xingp\source\repos\Visual Basic\Collections Example\obj\Debug\Collections Example.pdb
