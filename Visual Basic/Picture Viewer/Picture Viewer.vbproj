@@ -74,6 +74,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="DrawingModule.vb" />
+    <Compile Include="LogViewerForm.Designer.vb">
+      <DependentUpon>LogViewerForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="LogViewerForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="OptionsForm.Designer.vb">
       <DependentUpon>OptionsForm.vb</DependentUpon>
     </Compile>
@@ -104,6 +110,9 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="LogViewerForm.resx">
+      <DependentUpon>LogViewerForm.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="OptionsForm.resx">
       <DependentUpon>OptionsForm.vb</DependentUpon>
     </EmbeddedResource>

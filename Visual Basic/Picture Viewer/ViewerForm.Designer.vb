@@ -49,6 +49,8 @@ Partial Class ViewerForm
         Me.tbbOptions = New System.Windows.Forms.ToolStripButton()
         Me.sbrMyStatusStrip = New System.Windows.Forms.StatusStrip()
         Me.lblStatus = New System.Windows.Forms.ToolStripStatusLabel()
+        Me.ToolStripSeparator4 = New System.Windows.Forms.ToolStripSeparator()
+        Me.tbbShowLog = New System.Windows.Forms.ToolStripButton()
         CType(Me.picShowPicture, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.mnuPictureContext.SuspendLayout()
         Me.mnuMainMenu.SuspendLayout()
@@ -196,7 +198,7 @@ Partial Class ViewerForm
         '
         'tbrMainToolBar
         '
-        Me.tbrMainToolBar.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.tbbOpenPicture, Me.ToolStripSeparator2, Me.tbbDrawBorder, Me.ToolStripSeparator3, Me.tbbOptions})
+        Me.tbrMainToolBar.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.tbbOpenPicture, Me.ToolStripSeparator2, Me.tbbDrawBorder, Me.ToolStripSeparator3, Me.tbbOptions, Me.ToolStripSeparator4, Me.tbbShowLog})
         Me.tbrMainToolBar.Location = New System.Drawing.Point(0, 25)
         Me.tbrMainToolBar.Name = "tbrMainToolBar"
         Me.tbrMainToolBar.Size = New System.Drawing.Size(1008, 25)
@@ -256,6 +258,20 @@ Partial Class ViewerForm
         Me.lblStatus.Size = New System.Drawing.Size(111, 17)
         Me.lblStatus.Text = "No image loaded"
         '
+        'ToolStripSeparator4
+        '
+        Me.ToolStripSeparator4.Name = "ToolStripSeparator4"
+        Me.ToolStripSeparator4.Size = New System.Drawing.Size(6, 25)
+        '
+        'tbbShowLog
+        '
+        Me.tbbShowLog.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image
+        Me.tbbShowLog.Image = CType(resources.GetObject("tbbShowLog.Image"), System.Drawing.Image)
+        Me.tbbShowLog.ImageTransparentColor = System.Drawing.Color.Magenta
+        Me.tbbShowLog.Name = "tbbShowLog"
+        Me.tbbShowLog.Size = New System.Drawing.Size(23, 22)
+        Me.tbbShowLog.Text = "View Picture Log"
+        '
         'ViewerForm
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(11.0!, 25.0!)
@@ -314,4 +330,6 @@ Partial Class ViewerForm
     Friend WithEvents ToolStripSeparator3 As ToolStripSeparator
     Friend WithEvents sbrMyStatusStrip As StatusStrip
     Friend WithEvents lblStatus As ToolStripStatusLabel
+    Friend WithEvents ToolStripSeparator4 As ToolStripSeparator
+    Friend WithEvents tbbShowLog As ToolStripButton
 End Class

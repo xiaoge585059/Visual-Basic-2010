@@ -1,5 +1,11 @@
 ﻿Public Class ViewerForm
 
+    Const c_defPromptOnExit = False
+
+    Private m_strUserName As String
+    Private m_blnPromptOnExit As Boolean
+    Private m_objPictureBackColor As Color
+
     Private Sub btnEnlarge_Click(sender As Object, e As EventArgs) Handles btnEnlarge.Click
         Me.Width += 20
         Me.Height += 20
@@ -28,6 +34,12 @@
         lblX.Text = ""
         lblY.Text = ""
 
+        m_blnPromptOnExit = c_defPromptOnExit
+        m_objPictureBackColor = System.Drawing.SystemColors.Control
+
+        picShowPicture.BackColor = m_objPictureBackColor
+        mnuConfirmonExit.Checked = m_blnPromptOnExit
+
     End Sub
 
     Private Sub mnuOpenPicture_Click(sender As Object, e As EventArgs) Handles mnuOpenPicture.Click
@@ -37,6 +49,7 @@
 
     Private Sub mnuConfirmonExit_Click(sender As Object, e As EventArgs) Handles mnuConfirmonExit.Click
         mnuConfirmonExit.Checked = Not (mnuConfirmonExit.Checked)
+        m_blnPromptOnExit = mnuConfirmonExit.Checked
 
     End Sub
 
@@ -67,6 +80,23 @@
 
     Private Sub tbbOptions_Click(sender As Object, e As EventArgs) Handles tbbOptions.Click
         OptionsForm.ShowDialog()
+
+    End Sub
+
+    Private Sub ViewerForm_FormClosing(sender As Object, e As FormClosingEventArgs) Handles Me.FormClosing
+        If m_blnPromptOnExit Then
+            If MessageBox.Show("Close the Picture Viewer program?",
+                               "Picture Viewer",
+                               MessageBoxButtons.YesNo,
+                               MessageBoxIcon.Question) = Windows.Forms.DialogResult.No Then
+                e.Cancel = True
+            End If
+        End If
+
+    End Sub
+
+    Private Sub tbbShowLog_Click(sender As Object, e As EventArgs) Handles tbbShowLog.Click
+        LogViewerForm.ShowDialog()
 
     End Sub
 End Class

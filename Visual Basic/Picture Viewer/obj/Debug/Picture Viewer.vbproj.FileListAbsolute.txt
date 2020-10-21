@@ -36,3 +36,4 @@ C:\Users\xingp\source\repos\Visual-Basic-2010\Visual Basic\Picture Viewer\obj\De
 C:\Users\xingp\source\repos\Visual-Basic-2010\Visual Basic\Picture Viewer\obj\Debug\Picture Viewer.exe
 C:\Users\xingp\source\repos\Visual-Basic-2010\Visual Basic\Picture Viewer\obj\Debug\Picture Viewer.xml
 C:\Users\xingp\source\repos\Visual-Basic-2010\Visual Basic\Picture Viewer\obj\Debug\Picture Viewer.pdb
+C:\Users\xingp\source\repos\Visual-Basic-2010\Visual Basic\Picture Viewer\obj\Debug\Picture_Viewer.LogViewerForm.resources

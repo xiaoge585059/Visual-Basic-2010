@@ -165,6 +165,18 @@
         dAAAAABJRU5ErkJggg==
 </value>
   </data>
+  <data name="tbbShowLog.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAE8SURBVDhP3VKxSsRAFMyn5BPS26TzypTayGLjHVgsWChW
+        ayHnwQkLd0U6oyCk3Ea4QnDLVLLllSkt9w/G2b2kkLvEUvDB8JLsm33z3iT5Z2FqCVsruA2zkXBEyBE8
+        e16eoivdD2sU2q2B/3Lw3jIH8L01aJ2G0QVsmePq7OjwJaG7qVTsZEqBigStiJscSmawVU5FfJ5mwypC
+        rO5nLC7g6g6mQBuRR6hpPnzB2/sHqlLGEeDDOBX8VsE3/GapSuVYzi+HLyhXd5yZpJ7c6h25EVHFr/Ir
+        vev+g8zO7UZAcw+fLyMuvD5pbpvEnux6MrfPnYRldqWHY/042+9M2YGsREp3mOWIC8Eq1/AnIsnVtCzY
+        VtI+em8eMirguRFY3IphJev5ORbXk9hFiQwy4CQghZikkBfH42P8QSTJN5vULma740CSAAAAAElFTkSu
+        QmCC
+</value>
+  </data>
   <metadata name="sbrMyStatusStrip.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>617, 17</value>
   </metadata>
